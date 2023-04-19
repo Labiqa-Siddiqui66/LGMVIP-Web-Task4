@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.Blt0_vUK7TjhDgzAT4dDygHaHa&pid=Api&P=0");
+  margin:0;
+  width:80%;
+  height:80%;
+  background-size: cover;
+}
+.navbar{
+  background-color:palevioletred;
+  width:150%;
+  color: cyan;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:0;
+  padding: 0 1rem;
+  height:38px;
+}
+.title{
+  margin-left:448px;
+  color:black;
+  font-family:'Times New Roman', Times, serif;
+  font-size:30px;
+}
+.calculator-functions{
+  background-color: gray;
+  width: 327px;
+  height: 508px;
+  margin-left: 447px;
+  margin-top: 41px;
+  box-shadow:4px;
+  border-radius: 5px;;
+}
+#result{
+  margin-top:3px;
+  font-size:30px;
+  text-align: right;
+  width:325.5px;
+  height: 68px;
+  background-color: black;
+  color:white;
+  padding:11px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+#result:hover{
+  color:black;
+  background-color:white;
+}
+#dot{
+  font-size:50px ;
+}
+#d{
+  color:black;
+  background-color: pink;
+  width:77.5px;
+  font-size: 50px;
+}
+#d:hover{
+  color:black;
+  background-color:white;
+}
+#m{
+  color:black;
+  background-color: pink;
+  width:77.5px;
+  font-size: 50px;
+}
+#m:hover{
+  color:black;
+  background-color:white;
+}
+#p{
+  color:black;
+  background-color: pink;
+  width:77.5px;
+  font-size: 50px;
+}
+#p:hover{
+  color:black;
+  background-color:white;
+}
+
+#s{
+ color:black;
+  background-color: pink;
+  width:77.5px;
+  font-size: 50px;
+}
+#s:hover{
+  color:black;
+  background-color:white;
+}
+.function{
+  margin:1.7px;
+  background-color: purple;
+  box-shadow:4px;
+  height:70px;
+  width:78px;
+  color:white;
+  font-size: 32px;
+  border: 2px solid black;
+  box-shadow:1px;
+  border-radius: 12px;
+  float:left;
+}
+.function:hover{
+  background-color: white;
+  color:black;
+}
+#clear{
+  width:160px;
+  color:black;
+  background-color:pink;
+}
+#clear:hover{
+  color:black;
+  background-color:white;
+}
+#equal{
+  width:160px;
+  color:black;
+  background-color: pink;
+  font-size: 50px;
+}
+#equal:hover{
+  color:black;
+  background-color:white;
+}
+#round{
+  width:160px;
+}
+#round:hover{
+  color:black;
+  background-color:white;
+}
